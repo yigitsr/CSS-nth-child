@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f1f1;
+}
+
+.texts p:nth-child(1) {
+    color: red;
+
+    /* font-size default is 16px  */
+    font-size: 2em; 
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .texts p:nth-child(2) {
+    color: rgb(36, 133, 212);
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+}
+
+.texts p:nth-child(3) {
+    color: #000;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: left
+}
+
+.texts p:nth-child(4) {
+    color: #2f9b5f;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: right;
+}
+
+.wrapper div{
+margin-top: 20px;
+padding: 1% 
+}
+
+.wrapper div:nth-child(1){
+margin-top: 5px;
+border: 1px solid black;
+border-radius: 4px;
+width: 10%;
+}
+
+.wrapper div:nth-child(2){
+border: 2px solid red;
+border-radius: 6px;
+width: 20%;
+}
+
+    .wrapper div:nth-child(3){
+    margin-top: 50px;
+    border: 3px solid purple;
+    border-radius: 8px;
+    width: 30%
+
+}
+
+.wrapper div:nth-child(4){
+border: 4px solid violet;
+border-radius: 8px;
+width: 40%
+
+}
+
+.wrapper div:nth-child(5){
+margin-top: 50px;
+margin-bottom: 50px;
+border: 5px solid gray;
+border-radius: 8px;
+width: 50%
+}
+
+.wrapper div:nth-child(6){
+border: 6px solid brown;
+border-radius: 8px;
+width: 60%
+}
+
+.wrapper div:nth-child(7){
+border: 7px solid turquoise;
+border-radius: 8px;
+width: 70%
+}
+
+.wrapper div:nth-child(8){
+border: 8px solid green;
+border-radius: 8px;
+width: 80%
+}
+
+.wrapper div:nth-child(9){
+    border: 8px solid rgb(38, 31, 102);
+    border-radius: 8px;
+    width: 90%
+}
+
+.wrapper div:nth-child(10){
+    border: 8px solid rgb(209, 212, 11);
+    border-radius: 8px;
+    width: 100%
+}
+
+.one{
+    color: blue
+}
+
+.two{
+    color: #1bad95
+}
+
+.three{
+    color: fuchsia
+}
